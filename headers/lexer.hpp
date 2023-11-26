@@ -6,4 +6,6 @@
 class Lexer {
 public:
     std::vector<std::string> tokenize(const std::string& text);
+private:
+    std::string cleanToken(const std::string& token);
 };
